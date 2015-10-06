@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class SamplesTest {
 	
-//	@Test()
+	@Test()
 	public void sampleTest() throws InterruptedException{
 		WebDriver driver = new FirefoxDriver();	
 		driver.get("http://tools.cisco.com/search/results/en/us/get#q=cisco");
@@ -29,10 +29,10 @@ public class SamplesTest {
 	       }
 	}
 	
-	/*@Test(dataProvider="testData")
+	@Test(dataProvider="testData")
 	public void sampleTest1(String str,String str2){
 		System.out.println("String:"+str+",String 2:"+str2);
-	}*/
+	}
 	@Test(dataProvider="testData")
 	public void sampleTest1(String str){
 		System.out.println("String:"+str);
