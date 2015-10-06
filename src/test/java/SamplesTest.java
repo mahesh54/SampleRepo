@@ -13,7 +13,7 @@ public class SamplesTest {
 	@Test()
 	public void sampleTest() throws InterruptedException{
 		WebDriver driver = new FirefoxDriver();	
-		driver.get("http://tools.cisco.com/search/results/en/us/get#q=cisco");
+		driver.get("http://tools.com");
 		Thread.sleep(5000);
 	List<WebElement>	urls=driver.findElements(By.cssSelector("p.url"));
 	for (WebElement webElement : urls) {
