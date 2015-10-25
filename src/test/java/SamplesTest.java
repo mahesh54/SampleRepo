@@ -16,6 +16,9 @@ public class SamplesTest {
 		driver.get("http://yahoo.com");
 		driver.get("http://yahoo.com");
 		driver.get("http://yahoo.com");
+		driver.get("http://yahoo.com");
+		driver.get("http://yahoo.com");
+		driver.get("http://yahoo.com");
 		
 		Thread.sleep(5000);
 	List<WebElement>	urls=driver.findElements(By.cssSelector("p.url"));
